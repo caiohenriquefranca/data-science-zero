@@ -33,7 +33,8 @@ Every new entry in `README.md` follows the same template, so the log stays easy 
 data-science-zero/
 ├── matplotlib/              # Data visualization with Matplotlib
 │   ├── grafico-linha/       # Line charts: one value evolving over time
-│   └── grafico-barras/      # Bar charts and histogram-like groupings
+│   ├── grafico-barras/      # Bar charts and histogram-like groupings
+│   └── grafico-dispersao/   # Scatter plots: relationships between two variables
 ├── projetos/                # Longer, multi-step exercises
 │   └── conector-keys/       # Friends, interests and salaries with collections
 └── README.md                # This study log
@@ -47,11 +48,13 @@ data-science-zero/
    - [Script version](matplotlib/grafico-barras/grafico-barra.py)
 3. [Histograms built from bar charts](matplotlib/grafico-barras/grafico-barra2.ipynb) — grouping numeric values with `Counter`
    - [Script version](matplotlib/grafico-barras/grafico-barra2.py)
-4. [Connector Keys](projetos/conector-keys/main.py) — friends of friends, shared interests and salaries using `Counter` and `defaultdict`
+4. [Scatter plots with Matplotlib](matplotlib/grafico-dispersao/grafico-dispersao.ipynb) — finding the relationship between two numeric variables, labelling each point with `annotate`
+   - [Script version](matplotlib/grafico-dispersao/grafico-dispersao.py)
+5. [Connector Keys](projetos/conector-keys/main.py) — friends of friends, shared interests and salaries using `Counter` and `defaultdict`
 
 ## Next up
 
-- [ ] Scatter plots and multiple series on the same chart
+- [x] Scatter plots and multiple series on the same chart
 - [ ] Subplots and figure layout
 - [ ] NumPy basics: vectors, matrices and broadcasting
 - [ ] pandas basics: loading data, filtering and grouping
